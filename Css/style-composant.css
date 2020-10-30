@@ -1,0 +1,138 @@
+/*Composant*/
+.bg-orange{
+  background-color: #ef8c14;
+  border:0px;
+  border-radius: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  height: 40px
+  width: fit-content;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.p-orange{
+  border-radius: 20px; 
+
+  background:linear-gradient(to right, #f8a358 80%,#fa8878); 
+  color: white; height: 45px;
+  padding: 10px;
+  width: 260px;
+  font-weight: bold;
+  opacity: 1;
+  top: 30px;
+  font-size: 18px;
+  
+}
+
+.container-pourquoi
+{
+  background-color: white;
+  opacity: 0.5;
+  width: 95%;
+}
+
+.Concept
+{
+  font-size: 1.5em;
+    color: white;
+}
+
+.souligne
+{
+  text-decoration-color: #f8a05d;
+}
+
+.format{
+   text-align: center; 
+   background-color: white; 
+   border: 0px; 
+   border-radius: 15px;
+   font-size: 2.3em;
+   height: 350px;
+   color: #0f8ec2;
+   padding: 20px;
+}
+
+.card-header {
+    font-size: 2.5em;
+    color: white;
+    background: linear-gradient(to right, #f8a358 30%,#fa8878 60%);
+    border: 1px solid;
+    height: 110px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card-body{
+  font-size: 1.3em;
+  border: 1px ;
+  text-align: center;
+  opacity: 0.7;
+  height: 360px;
+  margin-top: -2px;
+  background-color: white;
+  position: relative;     
+}
+.card-footer{
+  background:linear-gradient(to right, #f8a358 30%,#fa8878 60%);
+  border: 1px transparent;
+  height: 35px;
+}
+.card-text{
+  font-size: 1.5em;
+  padding-top: 15px;
+}
+
+.form {
+    background-color: #6dbce1;
+    opacity: 0.8;
+	margin: 15px;
+    padding: 20px;
+}
+.form-group {
+    height: 90px;
+    margin: 25px;
+    line-height: 30px;
+}
+.form-control {
+    height: 70px;
+    border-radius: 50px;
+    background-color: #cae4f5;
+    font-size: 1.3em;
+    padding-left: 40px;
+}
+.button {
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #dd8d24;
+    color: white;
+    font-size: 1.3em;
+    height: 48px;
+    width: 150px;
+}
+.par_con {
+    font-size: 20px;
+    font-weight: 30px;
+    color: #c0d5dc;
+}
+
+body {
+  background: url('../Image/BACKGROUND.png') no-repeat;
+  background-size:cover;
+}
+
+@media only screen and (max-width: 767px){
+  body{
+    background-image: none !important;
+    background-color: #1391c3;
+  }
+  .container{
+    padding: 20px !important;
+  }
+  .container-pourquoi{
+    width: 85%
+  }
+}
