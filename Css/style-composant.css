@@ -118,6 +118,13 @@
     font-weight: 30px;
     color: #c0d5dc;
 }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 
 body {
   background: url('../Image/BACKGROUND.png') no-repeat;
